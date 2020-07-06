@@ -77,7 +77,7 @@ func main() {
 	}
 }
 
-// Search performs an SDDP query via multicast.
+// Search performs an SSDP query via multicast.
 func Search(query string) ([]http.Header, error) {
 	conn, err := net.ListenUDP("udp", nil)
 	if err != nil {
