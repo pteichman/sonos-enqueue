@@ -13,5 +13,5 @@ option to append instead.
 
 To use:
 
-    $ go build .
-    $ ./sonos-enqueue -d "Living Room" `curl https://ia601403.us.archive.org/24/items/gd77-05-08.maizner.hicks.5002.sbeok.shnf/gd77-05-08.maizner.hicks.5002.sbeok.shnf_vbr.m3u`
+    $ go install github.com/pteichman/sonos-enqueue@latest
+    $ sonos-enqueue -d "Living Room" https://archive.org/download/gd77-05-08.sbd.hicks.4982.sbeok.shnf/gd77-05-08.sbd.hicks.4982.sbeok.shnf_vbr.m3u
